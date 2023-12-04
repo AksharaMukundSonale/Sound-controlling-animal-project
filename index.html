@@ -17,14 +17,14 @@
             <h2>Sound controlled animals project.</h2>
             <p>Note: Play different sounds like barking, meowing, mooing and roaring to identify the animals.</p>
           </div>
-          <div class="main_div">
+          <div  class="col-xs-12">
             <center>
                <br>
-               <button class="btn btn-warning" onclick="start();" > START</button>  
-               <h4 id="animal_audio_detect">Animal detected:</h4>
-               <h3 id="audio_being_played">Detected voice is of:</h3> 
+               <button class="btn btn-warning" onclick="start()" > START</button>  
+               <h4 id="result_label">Animal detected:</h4>
+               <h3 id="result_count"></h3> 
                <br>
-               <img src="ear.jpg">  
+               <img id="animal_image" src="ear.gif" width="300" height="300">  
             </center>
           </div>
           <div class="copy_right_footer">
